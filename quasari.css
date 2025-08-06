@@ -4,96 +4,74 @@
  }
 
  * {
+     box-sizing: border-box;
      margin: 0;
      padding: 0;
-     box-sizing: border-box;
-     font-family: 'Inter', sans-serif;
  }
 
  body {
-     background: #fff;
-     color: #000;
+     font-family: Arial, sans-serif;
+     padding-top: 60px;
+     /* offset for fixed header */
  }
-
 
  header {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     padding: 20px 40px;
-     border-bottom: 1px solid #e5e7eb;
- }
-
- .fixed {
      position: fixed;
      top: 0;
      left: 0;
      width: 100%;
-     height: 64px;
+     height: 60px;
      background-color: white;
-     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     padding: 0 32px;
-     z-index: 1000;
+     border-bottom: 1px solid gray;
+     z-index: 999;
  }
 
-
- .header-left {
+ .nav-container {
+     max-width: 1500px;
+     margin: 0 auto;
+     height: 100%;
      display: flex;
      align-items: center;
-     gap: 10rem;
-     margin-left: 3rem;
-
+     justify-content: space-between;
+     padding: 0 24px;
  }
 
  .logo {
      font-weight: bold;
-     font-size: 24px;
-     color: rgb(0, 166, 255);
-     text-decoration: none;
-
+     font-size: 22px;
+     color: #00a4ef;
+     letter-spacing: 1px;
  }
 
- .nav-links {
-     display: flex;
-     gap: 1rem;
-     margin-left: 5rem;
- }
-
- .nav-links a {
-     color: black;
-     text-decoration: none;
- }
-
- .header-right {
+ nav {
      display: flex;
      align-items: center;
-     gap: 2rem;
+     gap: 24px;
+     font-size: 16px;
  }
 
- /* Buttons */
+ nav a {
+     text-decoration: none;
+     color: #333;
+ }
 
+ .divider {
+     height: 20px;
+     width: 1px;
+     background-color: #ccc;
+ }
 
- .lifetime-btn {
-     background: black;
+ .btn {
+     background-color: #0a0e1a;
      color: white;
-     padding: 10px 20px;
-     border: none;
-     border-radius: 6px;
+     padding: 8px 16px;
+     border-radius: 8px;
      font-weight: bold;
-     cursor: pointer;
-     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-     transition: all 0.3s;
-     cursor: pointer;
-     margin-right: 5rem;
+     text-decoration: none;
  }
 
- .lifetime-btn:hover {
-
-     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-
+ .btn:hover {
+     background-color: #1a1f2e;
  }
 
 
@@ -1186,4 +1164,3 @@
          width: 450px;
      }
  }
-
