@@ -1,5 +1,5 @@
  :root {
-     --primary: #0099e5;
+     --primary: #0ea5e9;
      --gray: #4b5563;
  }
 
@@ -31,26 +31,30 @@
      padding: 0 24px;
      display: flex;
      align-items: center;
+     /* justify-content: end; */
      justify-content: space-between;
  }
 
  .logo-button {
      font-size: 20px;
      font-weight: 700;
-     color: #0099e5;
+     color: #0ea5e9;
      background: none;
      border: none;
      cursor: pointer;
+     margin-left: 2.3rem;
  }
 
  .nav {
      display: flex;
-     gap: 32px;
+     margin-left: auto;
+     margin-right: 1rem;
+     gap: 25px;
  }
 
  .nav a {
      text-decoration: none;
-     font-size: 16px;
+     font-size: 15px;
      font-weight: 500;
      color: #333;
  }
@@ -58,7 +62,7 @@
  .right-section {
      display: flex;
      align-items: center;
-     gap: 16px;
+     gap: 20px;
  }
 
  .divider {
@@ -81,6 +85,7 @@
      border-radius: 10px;
      font-weight: 600;
      font-size: 15px;
+     margin-right: 1rem;
  }
 
  @media(max-width:1000px) {
@@ -140,7 +145,16 @@
  }
 
 
+ .offer-text {
+     font-weight: 600;
+     padding-right: 0.5rem;
+ }
 
+ .dot-text {
+     text-align: center;
+     padding-left: 0.4rem;
+
+ }
 
  .offer-section-1 {
      display: flex;
@@ -163,7 +177,7 @@
      -moz-border-radius: 100px;
      -ms-border-radius: 100px;
      -o-border-radius: 100px;
-     padding-left: 1rem;
+     padding-left: 0.5rem;
      padding-right: 1rem;
      padding-top: 0.2rem;
      padding-bottom: 0.2rem;
@@ -256,7 +270,15 @@
      height: 48px;
  }
 
- .features {
+ .btn-primary:hover {
+     background-color: #0ea4e9d8;
+ }
+
+ .btn-secondary:hover {
+     background-color: rgba(173, 216, 230, 0.341);
+ }
+
+ .btn .features {
      display: flex;
      flex-direction: column;
      gap: 20px;
@@ -269,23 +291,28 @@
  }
 
  .icon-circle {
-     width: 3rem;
-     height: 3rem;
-     border-radius: 5px;
+
+     /*border-radius: 1rem;
      padding-left: 1rem;
      padding-right: 1rem;
+     */
      display: flex;
      align-items: center;
      justify-content: center;
      color: white;
-     -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-     -ms-border-radius: 5px;
-     -o-border-radius: 5px;
+     border-radius: 8px;
+     -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     -ms-border-radius: 8px;
+     -o-border-radius: 8px;
+     min-width: 40px;
+     height: 40px;
  }
 
  .icon1 {
      background-color: rgb(233, 30, 99);
+
+
  }
 
 
