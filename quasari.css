@@ -228,50 +228,72 @@
  }
 
 
- .hero h1 {
-     font-size: 2.8rem;
-     font-weight: 800;
-     margin-bottom: 20px;
+ .hero h4 {
+     font-size: 2.125rem;
+     font-weight: 700;
+     margin-bottom: 1rem;
  }
 
  .hero p {
-     font-size: 1.1rem;
-     color: #374151;
-     margin-bottom: 20px;
+     font-size: 0.85rem;
+     color: black;
+     margin-bottom: 0.95rem;
  }
 
  .cta {
      display: flex;
-     gap: 15px;
+
      margin-bottom: 30px;
      flex-wrap: wrap;
+     width: 600px;
+     height: 52px;
  }
 
  .cta a {
-     padding: 12px 20px;
-     font-weight: 600;
-     border-radius: 6px;
+     /*padding: 12px 25px;
+     */
+     font-weight: 300;
+     border-radius: 4px;
      text-decoration: none;
      display: inline-block;
+     -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+     -ms-border-radius: 4px;
+     -o-border-radius: 4px;
  }
 
  .btn-primary {
      background-color: var(--primary);
      color: white;
+     /* border: 1px solid; */
+     padding-right: 1rem;
+     padding-left: 1rem;
+     width: 203px;
+     height: 36px;
+     text-align: center;
+     padding-top: 0.3rem;
+
+
  }
+
+
 
  .btn-secondary {
      color: var(--primary);
      background-color: white;
      border: 1px solid;
-     padding-right: 1rem;
-     padding-left: 1rem;
-     width: 220px;
-     height: 48px;
+     padding-right: 0.6rem;
+     padding-left: 0.6rem;
+     width: 187px;
+     height: 36px;
+     text-align: center;
+     padding-top: 0.3rem;
+     margin-left: 16px;
  }
 
  .btn-primary:hover {
      background-color: #0ea4e9d8;
+
  }
 
  .btn-secondary:hover {
