@@ -595,6 +595,7 @@ min-height: 0px; */
 
  .tabs-section {
      margin: 100px 50px;
+     margin-left: 2rem;
  }
 
  .tabs-container {
@@ -619,7 +620,7 @@ min-height: 0px; */
      flex-wrap: wrap;
      gap: 1rem;
      margin-bottom: 1rem;
-     margin-left: 3rem;
+     margin-left: 2rem;
  }
 
  .cards-wrapper .component-card {
@@ -704,7 +705,7 @@ min-height: 0px; */
  .pricing-box {
      width: 592px;
      height: 676px;
-     background: #fff;
+     background: rgba(128, 128, 128, 0.069);
      border: 1px solid var(--border);
      border-radius: 16px;
      box-shadow: 0 8px 24px rgba(0, 0, 0, .06);
@@ -722,7 +723,7 @@ min-height: 0px; */
 
  .top-line {
      font-size: 16px;
-     font-weight: 700;
+     font-weight: 500;
      color: var(--blue);
  }
 
@@ -838,7 +839,9 @@ min-height: 0px; */
  }
 
  .package {
-     padding: 14px 0;
+     /* padding: 14px 0; */
+     padding-top: 1rem;
+     padding-bottom: 3rem;
  }
 
  .package:not(:last-child) {
@@ -859,7 +862,7 @@ min-height: 0px; */
  }
 
  .btn-outline {
-     background: #f9fafb;
+     background: transparent;
      border: 1px solid var(--border);
      border-radius: 8px;
      padding: 6px 14px;
@@ -887,10 +890,13 @@ min-height: 0px; */
  }
 
  .price-line span {
-     font-size: 15px;
+     font-size: 16px;
      font-weight: 500;
      color: var(--muted);
-     margin-left: 6px;
+     /* margin-left: 6px; */
+     text-align: center;
+     margin-bottom: 5px;
+
  }
 
  .desc {
@@ -976,23 +982,24 @@ min-height: 0px; */
      line-height: 1.5rem;
      text-align: left;
      margin-bottom: 8px;
-     margin-left: 5rem;
+     margin-left: 2rem;
  }
 
  .faq-container {
      width: 1139px;
-     height: 335px;
+     height: 385px;
      border: 1px solid #ccc;
      padding: 20px;
      border-radius: 8px;
      box-sizing: border-box;
      display: flex;
      flex-direction: column;
-     margin-right: 5rem;
-     margin-left: 5rem;
+     margin-right: 2rem;
+     margin-left: 2rem;
      margin-bottom: 2rem;
      gap: 10px;
      background-color: transparent;
+     outline: none;
      -webkit-border-radius: 8px;
      -moz-border-radius: 8px;
      -ms-border-radius: 8px;
@@ -1003,15 +1010,15 @@ min-height: 0px; */
 
  .faq-container-1 {
      width: 1139px;
-     height: 290px;
+     height: 320px;
      border: 1px solid #ccc;
      padding: 20px;
      border-radius: 8px;
      box-sizing: border-box;
      display: flex;
      flex-direction: column;
-     margin-right: 5rem;
-     margin-left: 5rem;
+     margin-right: 2rem;
+     margin-left: 2rem;
      margin-bottom: 2rem;
      gap: 10px;
      background-color: transparent;
@@ -1023,15 +1030,15 @@ min-height: 0px; */
 
  .faq-container-2 {
      width: 1139px;
-     height: 180px;
+     height: 210px;
      border: 1px solid #ccc;
      padding: 20px;
      border-radius: 8px;
      box-sizing: border-box;
      display: flex;
      flex-direction: column;
-     margin-right: 5rem;
-     margin-left: 5rem;
+     margin-right: 2rem;
+     margin-left: 2rem;
      margin-bottom: 2rem;
      gap: 10px;
      background-color: transparent;
@@ -1043,15 +1050,15 @@ min-height: 0px; */
 
  .faq-container-3 {
      width: 1139px;
-     height: 180px;
+     height: 200px;
      border: 1px solid #ccc;
      padding: 20px;
      border-radius: 8px;
      box-sizing: border-box;
      display: flex;
      flex-direction: column;
-     margin-right: 5rem;
-     margin-left: 5rem;
+     margin-right: 2rem;
+     margin-left: 2rem;
      margin-bottom: 2rem;
      gap: 10px;
      background-color: transparent;
@@ -1064,12 +1071,15 @@ min-height: 0px; */
  .faq-button {
      background-color: rgba(255, 255, 255, 0);
      border: none;
+     outline: none;
+
      padding: 12px;
      font-size: 16px;
      font-weight: 500;
      text-align: left;
      cursor: pointer;
      transition: background-color 0.3s ease;
+
 
  }
 
@@ -1247,7 +1257,7 @@ min-height: 0px; */
      gap: 18rem;
      margin-left: 2rem;
      margin-top: 5rem;
-     margin-bottom: 2rem;
+     margin-bottom: 0.1rem;
  }
 
 
